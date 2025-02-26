@@ -1,0 +1,150 @@
+.banneres {
+    width: 100%;
+}
+
+.slider {
+    margin-top: 30px;
+}
+
+.information {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.informationBtn {
+    background-color: #EF5038;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.informationBtn:hover {
+    background-color: #F9BC21;
+    transform: scale(1.05);
+}
+
+.informationBtn:active {
+    background-color: #009E44;
+    transform: scale(0.95);
+}
+
+.informationBtn:focus {
+    outline: 3px solid #043220;
+}
+
+.productTypes {
+    font-size: 22px;
+    font-weight: bold;
+    color: #043220;
+    margin: 20px 0 10px;
+    display: flex;
+    padding-top: 60px;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #009E44;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-description {
+    margin: 10px 0;
+}
+
+.modal-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+
+.modal-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ef5038;
+}
+
+.button {
+    background-color: #ef5038;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.close-button {
+    background-color: #043220;
+}
+
