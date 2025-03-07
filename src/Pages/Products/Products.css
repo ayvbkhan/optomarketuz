@@ -1,5 +1,5 @@
 .productsContainer {
-    background-image: url(./images/background_dekstop.png);
+    background-image: url('./images/background_dekstop.png');
     background-size: 100%;
     padding-left: 30px;
     padding-bottom: 30px;
