@@ -4,8 +4,7 @@
     align-items: flex-start;
     gap: 20px;
     padding: 30px;
-    border-radius: 10px;
-    color: 043220;
+    color: #009E44;
     margin-top: 50px;
 }
 
@@ -31,13 +30,13 @@
 .feedbackForm input,
 .feedbackForm textarea {
     padding: 10px;
-    border: 1px solid rgb(241, 241, 241);
+    border: 1px solid rgb(223, 223, 223);
     border-radius: 5px;
     font-size: 14px;
 }
 
 .feedbackForm textarea {
-    min-height: 270px;
+    min-height: 120px;
     resize: none;
 }
 
@@ -63,4 +62,14 @@
     .feedbackContainer {
         flex-direction: column;
     }
+}
+
+@media (max-width: 768px) {
+   .feedbackMap iframe {
+    width: 350px;
+   }
+
+   .feedbackForm {
+    width: 350px;
+   }
 }
