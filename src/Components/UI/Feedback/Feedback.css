@@ -66,10 +66,10 @@
 
 @media (max-width: 768px) {
    .feedbackMap iframe {
-    width: 350px;
+    width: 320px;
    }
 
    .feedbackForm {
-    width: 350px;
+    width: 320px;
    }
 }
